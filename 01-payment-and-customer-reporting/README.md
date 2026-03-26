@@ -22,9 +22,15 @@ The final result is stored as a SQL view.
 - views
 - validation queries
 
-## Dataset
-Sakila sample database
-
 ## Files
 - `payment_report_view.sql` – main SQL solution stored as a view
 - `payment_report_validation.sql` – validation queries used to verify correctness of the report
+
+## Validation
+The solution is validated by comparing aggregated values in the view with source data from the `payment` table. Validation includes row count checks and comparison of totals, payment count, average payment amount, and last payment date for selected customers.
+
+## Business interpretation
+This report provides a customer-level summary of payment activity. It can be used to identify the most valuable customers, monitor payment behavior, and support customer segmentation or revenue reporting.
+
+## Dataset
+Sakila sample database

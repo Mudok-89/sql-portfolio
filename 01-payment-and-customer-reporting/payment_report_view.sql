@@ -8,10 +8,10 @@ SELECT
      c.customer_id,
      concat(c.first_name, ' ', c.last_name) as zakaznik,
      c.email,
-     SUM(amount)                            as vyse_plateb,
-     COUNT(p.payment_id)                    as pocet_plateb,
-     AVG(p.amount)                 as prumerna_castka_platby,
-     MAX(p.payment_date)           as posledni_datum_platby
+     SUM(amount)                            as total_payment_amount,
+     COUNT(p.payment_id)                    as payment_count,
+     AVG(p.amount)                 as avg_payment_amount,
+     MAX(p.payment_date)           as last_payment_date
 FROM payment p
 join customer c on c.customer_id = p.customer_id
 Group by c.customer_id,

@@ -1,3 +1,3 @@
-# Payment Report
+# Payment and Customer Reporting
 
-SQL project focused on customer payment reporting using the Sakila database.
+SQL examples focused on customer-level payment reporting and business metrics using the Sakila database.

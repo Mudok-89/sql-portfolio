@@ -1,3 +1,3 @@
 # Revenue Analysis
 
-SQL projects focused on revenue, income analysis, and film profitability.
+SQL examples focused on film revenue, income analysis, and profitability using the Sakila database.

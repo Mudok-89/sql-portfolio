@@ -24,3 +24,7 @@ The final result is stored as a SQL view.
 
 ## Dataset
 Sakila sample database
+
+## Files
+- `payment_report_view.sql` – main SQL solution stored as a view
+- `payment_report_validation.sql` – validation queries used to verify correctness of the report

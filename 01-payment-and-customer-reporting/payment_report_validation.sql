@@ -1,5 +1,5 @@
 ## Validation
-The solution is validated by comparing the view output with source payment data for selected customers and by checking whether the number of rows in the view matches the number of customers with at least one payment.
+-- The solution is validated by comparing the view output with source payment data for selected customers and by checking whether the number of rows in the view matches the number of customers with at least one payment.
 
 -- Validation 1: check number of rows in the view
 SELECT COUNT(*) AS row_count

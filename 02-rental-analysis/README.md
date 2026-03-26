@@ -1,3 +1,3 @@
 # Rental Analysis
 
-SQL projects focused on rental activity, rental reporting, and unpaid rentals.
+SQL examples focused on rental reporting, rental activity, and unpaid rentals using the Sakila database.

@@ -10,6 +10,9 @@ A basic SQL join between the `rental` and `payment` tables showing payment and r
 ### 2. Rental Report
 A rental-level report combining data from `rental`, `payment`, `inventory`, and `film` tables. The report includes rental details, payment information, and film attributes with business-friendly column names.
 
+### 3. Unpaid Rentals
+An analytical query identifying rentals that do not have a matching payment record. This example demonstrates how to work with missing matches using outer joins.
+
 ## Skills demonstrated
 - INNER JOIN
 - multi-table joins
